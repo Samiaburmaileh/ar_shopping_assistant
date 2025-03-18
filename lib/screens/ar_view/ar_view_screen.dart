@@ -6,9 +6,9 @@ import 'package:ar_flutter_plugin/managers/ar_location_manager.dart';
 import 'package:ar_flutter_plugin/managers/ar_object_manager.dart';
 import 'package:ar_flutter_plugin/managers/ar_session_manager.dart';
 import 'package:ar_flutter_plugin/models/ar_node.dart';
-import '../models/product_model.dart';
-import '../widgets/ar_controls.dart';
-import '../utils/constants.dart';
+import '../../models/product_model.dart';
+import '../../widgets/ar_controls.dart';
+import '../../utils/constants.dart';
 
 class ArViewScreen extends StatefulWidget {
   const ArViewScreen({Key? key}) : super(key: key);
