@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "11597112651",
+    "project_id": "arshoppingassistant-4344b",
+    "storage_bucket": "arshoppingassistant-4344b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11597112651:android:fdd49488fff20c39b274ce",
+        "android_client_info": {
+          "package_name": "com.example.ar_shopping_assistant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq7POTMed50VYfiawLeOJcjWTdzK70QNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

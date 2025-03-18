@@ -1,0 +1,2 @@
+C:/Users/samia/ar_shopping_assistant/android/app/.cxx/Debug/3844723l/x86/CMakeFiles/edit_cache.dir
+C:/Users/samia/ar_shopping_assistant/android/app/.cxx/Debug/3844723l/x86/CMakeFiles/rebuild_cache.dir
