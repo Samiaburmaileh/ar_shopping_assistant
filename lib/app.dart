@@ -1,7 +1,14 @@
+import 'package:ar_shopping_assistant/screens/VisualSearchScreen.dart';
+import 'package:ar_shopping_assistant/screens/ar_history_screen.dart';
+import 'package:ar_shopping_assistant/screens/favorites_screen.dart';
+import 'package:ar_shopping_assistant/screens/measurement_screen.dart';
+import 'package:ar_shopping_assistant/screens/price_comparison_screen.dart';
+import 'package:ar_shopping_assistant/screens/shopping_lists_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart' as firebase_auth;
 import 'package:provider/provider.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'screens/product/product_details_screen.dart';
 
 // Services
 import 'services/auth_service.dart';
@@ -116,14 +123,22 @@ class App extends StatelessWidget {
     );
   }
 
+  // Update the routes map in _buildRoutes() method in the App class
   Map<String, WidgetBuilder> _buildRoutes() {
     return {
       '/home': (context) => const HomeScreen(),
-      '/login': (context) => const LoginScreen(),
-      '/product_details': (context) => const ProductDetailsScreen(),
+      '/login': (context) => const LoginScreen(), // Add this line
+      '/product_details': (context) => const ProductSearchScreen(),
       '/ar_view': (context) => const ArViewScreen(),
       '/shopping_lists': (context) => const ShoppingListsScreen(),
+      '/shopping_list_details': (context) => const ShoppingListDetailScreen(),
       '/profile': (context) => const ProfileScreen(),
+      '/visual_search': (context) => const VisualSearchScreen(),
+      '/product_search': (context) => const ProductSearchScreen(),
+      '/measurement': (context) => const MeasurementScreen(),
+      '/price_comparison': (context) => const PriceComparisonScreen(),
+      '/favorites': (context) => const FavoritesScreen(),
+      '/ar_history': (context) => const ArHistoryScreen(),
     };
   }
 }
